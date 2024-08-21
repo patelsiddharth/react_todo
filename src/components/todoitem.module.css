@@ -1,0 +1,33 @@
+.item {
+    font-size: 20px;
+    color: #353935;
+}
+
+.itemName {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemName:hover {
+    background: #f4f4f4;
+}
+
+.deletebtn {
+    cursor: pointer;
+    background-color: #f7ca18;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    width: 35px;
+    height: 35px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
